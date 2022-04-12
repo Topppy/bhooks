@@ -1,5 +1,4 @@
-# ahooks的实现练习
-
+# ahooks 的实现练习
 
 ## 项目结构
 
@@ -15,13 +14,16 @@
 └── tsconfig.json
 ```
 
-
 ## 问题
 
-###  testing-library react 18 warning
+### testing-library react 18 warning
+
 > Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot
 
 https://github.com/testing-library/react-testing-library/issues/509
+https://github.com/testing-library/react-hooks-testing-library/pull/655
+
+todo: 升级到支持 react18 的版本
 
 #### 参考文档
 
