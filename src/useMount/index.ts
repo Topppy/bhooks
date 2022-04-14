@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 
+// 首次渲染后执行约等于 didmount
 const useMount = (fn: () => void) => {
   // 开发环境提供报错信息
   if (process.env.NODE_ENV === "development" && typeof fn !== "function") {
